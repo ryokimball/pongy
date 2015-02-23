@@ -6,6 +6,9 @@ game:
     pong
 moving objects:
     left paddle, right paddle, ball
+Controls:
+    left paddle: e/f
+    right paddle: i/j
 text: 
     game time, round time, left score, right score
 position & size: 
