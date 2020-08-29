@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Interesting Title.</title>
+        <script type="text/javascript"> <!--// scrolling title, just for fun.
+            (function titleScroller(text) {
+                document.title = text;
+                setTimeout(function () {
+                    titleScroller(text.substr(1) + text.substr(0, 1));
+                }, 250);
+            }(document.title+"  ")); //-->
+        </script>
+		<link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <canvas id = 'mainCanvas'></canvas>
+        <script src="main.js"></script>
+    </body>
+</html>
